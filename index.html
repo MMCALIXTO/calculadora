@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora EPCAR</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="container">
+ <div class="dentro">
+
+
+    <table>
+
+
+        <tr>
+            
+            
+            <td><h1 onclick="calcularmath()" class="bordinha" style="cursor: pointer;" >Matematica:</h1> </td>
+            <td><select class="numero" id="math" type="number">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+            </select></td>
+            <td><span class="bordinha" id="mathp" style="font-size: 50px; margin-left: auto; ">0.000</span></td>
+        </tr>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+        <tr >
+            
+                <td><h1 class="bordinha" style="cursor: pointer;" onclick="calcularport()">Português:</h1></td>
+                <td><select class="numero" id="por" type="number">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                </select></td>
+                <td><span class="bordinha" id="porp" style="font-size: 50px; margin-left: auto; ">0.000</span></td>
+                <td><span>ㅤㅤㅤ</span></td>
+                
+                <td class="bum"><span id="result" style="margin-right: auto;">0.000</span></td>
+                
+        </tr>
+
+
+
+
+        <tr >
+            
+            <td><h1 class="bordinha" style="cursor: pointer;" onclick="calcularing()">Inglês:</h1></td>
+            <td><select class="numero" id="ing" type="number">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <td><span class="bordinha" id="ingp" style="font-size: 50px; margin-left: auto; ">0.000</span></td>
+            </select></td>
+            
+        </tr>
+
+
+        
+            <td><h1 class="bordinha">Redação</h1></td>
+            <td><input style="width: 60px;" class="numero" id="red" type="number"></td>
+            <tr ><td><span class="" id="" style="font-size: 50px; margin-left: auto; "></span></td>
+    </tr>
+        
+
+        <tr>
+            <td><span class="" id="" style="font-size: 50px; margin-left: auto; "></span></td>
+            <td><input class="numero" onclick="calcular()" value="Calcular Média Parcial" style="width: 100%; cursor: pointer;" type="button"></td></tr>
+        <tr>
+            <td><span class="" id="" style="font-size: 50px; margin-left: auto; "></span></td>
+            <td><input class="numero" onclick="calcular2()" value="Calcular Média Final" style="width: 100%; cursor: pointer;" type="button"></td></tr>
+    </table>
+
+
+
+ </div>
+
+
+
+
+</div>
+
+
+    <script src="java.js"></script>
+</body>
+</html>

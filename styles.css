@@ -1,0 +1,88 @@
+body {
+    background: #0a0b0c;
+    color: #fff;
+}
+
+
+
+
+.container {
+    display: grid;
+    grid-template-areas: 
+        'dentro dentro dentro dentro'
+        ;
+
+        grid-gap: 30px;
+
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 70%;
+}
+
+
+@media only screen and (min-width: 1000px) {
+    .container {
+        width: 65%;
+    }
+}
+
+@media only screen and (min-width: 1342px) {
+    .container {
+        width: 62%;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .container {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .container {
+        width: 40%;
+    }
+}
+
+.dentro{
+    grid-area: dentro;  
+    margin-left: auto;
+    margin-right: auto;
+      
+}
+
+.bordinha {
+    border: solid white 1px;
+}
+
+
+
+
+.numero{
+    height: 30px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: solid white 1px;
+}
+
+.spa{
+    
+    height: 30px;
+    width: auto;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: solid white 1px;
+}
+
+.bum{
+    
+    height: 30px;
+    width: auto;
+    background-color: #0a0b0c;
+    color: white;
+    font-size: 50px;
+
+}
